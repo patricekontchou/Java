@@ -1,0 +1,7 @@
+Configuration to run this project on Eclipse
+-------------
+
+Go to CGBuilder and Change the path of all link with the appropriate project with respect to your computer directory
+Right Clik on on the project and select Run Configuration
+Add main class from argument,Add input path
+go to Classpath and clcik on AddJar to add library to the project.

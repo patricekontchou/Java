@@ -1,0 +1,20 @@
+
+
+
+
+exampleBase.add("org.apache.xerces.validators.common.XMLValidator");
+			exampleBase.add("org.apache.xerces.parsers.DOMParser");
+			exampleBase.add("org.apache.xerces.framework.XMLParser");
+			exampleBase.add("org.apache.xerces.validators.dtd.DTDGrammar");
+			exampleBase.add("org.apache.xml.serialize.BaseMarkupSerializer");
+			exampleBase.add("org.apache.xerces.validators.common.Grammar");
+			exampleBase.add("org.apache.xerces.utils.regex.Token");
+			exampleBase.add("org.w3c.dom.Node");
+			exampleBase.add("org.apache.xerces.dom.DeferredDocumentImpl");
+			exampleBase.add("org.apache.xerces.utils.regex.RegexParser");
+			exampleBase.add("org.apache.xerces.framework.XMLParser");
+			exampleBase.add("org.apache.xerces.dom.NodeImpl");
+			exampleBase.add("org.apache.xerces.validators.common.DFAContentModel");
+			exampleBase.add("org.apache.xerces.utils.regex.Token");
+			exampleBase.add("org.apache.xml.serialize.XMLSerializer");
+			exampleBase.add("org.apache.xerces.dom.DocumentImpl");

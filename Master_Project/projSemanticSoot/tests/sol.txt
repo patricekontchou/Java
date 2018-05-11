@@ -1,0 +1,2928 @@
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.DefaultText
+	 targetClass : org.apache.xml.serialize.Serializer
+	 field : XML_URI
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSDKeyrefTraverser
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDAbstractIDConstraintTraverser
+	 method : traverse
+	 semantic Similarity : 0.574
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.xni.XMLLocator
+	 targetClass : org.apache.xerces.impl.dv.xs.TimeDV
+	 method : addDelegate
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.validation.StreamValidatorHelper
+	 targetClass : org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher
+	 field : this$0
+	 semantic Similarity : 0.102
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.CoreDOMImplementationImpl
+	 targetClass : org.apache.xml.serialize.HTMLSerializer
+	 method : createLSParser
+	 semantic Similarity : 0.35
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.util.Base64
+	fields to move: lookUpBase64Alphabet base64Alphabet 
+	methods to move: <clinit> decode isData <clinit> removeWhiteSpace encode 
+	similarity/cohesion: 0.3333333333333333
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dtd.XMLContentSpec$Provider
+	 targetClass : org.apache.xerces.xs.PSVIProvider
+	 semantic Similarity : 0.167
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Token
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token$StringToken
+	 method : findFixedString
+	 semantic Similarity : 0.487
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XSNotationDecl
+	 targetClass : org.apache.xerces.impl.dv.ValidationContext
+	 method : getSystemId
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dtd.XML11NSDTDValidator
+	 targetClass : org.apache.wml.WMLTableElement
+	 field : fInputSource
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xpointer.ElementSchemePointer$Tokens
+	 targetClass : org.apache.xerces.xinclude.XInclude11TextReader
+	 field : INITIAL_TOKEN_COUNT
+	 semantic Similarity : 0.234
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xinclude.SecuritySupport$7
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token$ConditionToken
+	 field : this$0
+	 semantic Similarity : 0.11
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.util.NSItemListImpl
+	 targetClass : org.apache.xerces.xpointer.ElementSchemePointer$Scanner
+	 field : MASK_UNRESERVED_MASK
+	 semantic Similarity : 0.241
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.CoreDOMImplementationImpl
+	 targetClass : org.apache.xerces.impl.dtd.models.SimpleContentModel
+	 field : validators
+	 semantic Similarity : 0.086
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.SecuritySupport$6
+	 targetClass : org.apache.xerces.impl.Constants
+	 field : this$0
+	 semantic Similarity : 0.125
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.DatatypeException
+	 targetClass : org.apache.xerces.impl.dv.InvalidDatatypeFacetException
+	 method : dispatch
+	 semantic Similarity : 0.341
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.html.dom.ObjectFactory
+	 targetClass : org.apache.xerces.impl.dtd.XML11DTDValidator
+	 semantic Similarity : 0.09
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.xni.parser.XMLDocumentFilter
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token$ConditionToken
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.ValidationContext
+	 targetClass : org.apache.xerces.xs.XSComplexTypeDefinition
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.IDDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : checkExtraRules
+	 semantic Similarity : 0.366
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.HTMLUListElementImpl
+	 targetClass : org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher
+	 field : serialVersionUID
+	 semantic Similarity : 0.103
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom3.as.ASElementDeclaration
+	 targetClass : org.apache.xml.resolver.tools.ResolvingXMLFilter
+	 method : getStrictMixedContent
+	 semantic Similarity : 0.22
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.parsers.IntegratedParserConfiguration
+	 targetClass : org.apache.xerces.parsers.StandardParserConfiguration
+	 method : <init>
+	 semantic Similarity : 0.717
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dtd.models.CMNode
+	 targetClass : org.apache.xerces.xni.grammars.Grammar
+	 method : calcFirstPos
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.AttributeMap
+	 targetClass : org.apache.xerces.impl.xs.SchemaGrammar
+	 method : safeRemoveNamedItem
+	 semantic Similarity : 0.304
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.util.DefaultErrorHandler
+	 targetClass : org.apache.xerces.impl.dv.DTDDVFactory
+	 method : error
+	 semantic Similarity : 0.278
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityManager$CharacterBuffer
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser$ComplexTypeRecoverableError
+	 field : fResolverCatalogManager
+	 semantic Similarity : 0.15
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.parsers.XIncludeAwareParserConfiguration
+	 method : getFeature0
+	 semantic Similarity : 0.578
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.util.NamespaceSupport
+	 targetClass : org.apache.xerces.xinclude.MultipleScopeNamespaceSupport
+	 method : getPrefix
+	 semantic Similarity : 0.698
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.SecurityManager
+	 targetClass : org.apache.xml.serialize.LineSeparator
+	 field : fEntityName
+	 semantic Similarity : 0.135
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.SecuritySupport$8
+	 targetClass : org.apache.xerces.impl.xs.identity.IdentityConstraint
+	 field : val$f
+	 semantic Similarity : 0.103
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xni.XNIException
+	 targetClass : org.apache.xerces.impl.dv.util.HexBin
+	 field : fException
+	 semantic Similarity : 0.231
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLEntityDescriptionImpl
+	 targetClass : org.apache.xerces.jaxp.JAXPValidatorComponent
+	 field : fString
+	 semantic Similarity : 0.284
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom3.as.ASNotationDeclaration
+	 targetClass : org.apache.xerces.xni.grammars.XMLGrammarDescription
+	 method : setPublicId
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.parsers.AbstractSAXParser$1
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : <init>
+	 semantic Similarity : 0.1
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xinclude.SecuritySupport$2
+	 targetClass : org.apache.xerces.impl.dv.dtd.XML11NMTOKENDatatypeValidator
+	 field : VALIDATION_MANAGER
+	 semantic Similarity : 0.171
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$ValidationContextImpl
+	 targetClass : org.apache.xerces.util.DatatypeMessageFormatter
+	 field : LineWidth
+	 semantic Similarity : 0.222
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.SecuritySupport$5
+	 targetClass : org.apache.xerces.impl.xs.XSAttributeDecl
+	 method : cloneNode
+	 semantic Similarity : 0.106
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.jaxp.validation.WeakReferenceXMLSchema
+	fields to move: fGrammarPool 
+	methods to move: getGrammarPool 
+	similarity/cohesion: 0.25
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.wml.WMLPElement
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token
+	 method : findClassLoader
+	 semantic Similarity : 0.197
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XMLSchemaValidator$XPathMatcherStack
+	 targetClass : org.apache.xerces.dom.AttributeMap
+	 method : findNamePoint
+	 semantic Similarity : 0.096
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLParamElementImpl
+	 targetClass : org.apache.xerces.impl.xs.util.XSGrammarPool
+	 method : startAttlist
+	 semantic Similarity : 0.12
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.html.dom.SecuritySupport
+	 targetClass : org.apache.xerces.dom.DOMErrorImpl
+	 semantic Similarity : 0.118
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLTableRowElementImpl
+	 targetClass : org.apache.xml.resolver.readers.DOMCatalogParser
+	 method : cloneNode
+	 semantic Similarity : 0.122
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.util.URI$MalformedURIException
+	 targetClass : org.apache.xerces.dom.DocumentTypeImpl
+	 semantic Similarity : 0.214
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.parsers.SAXParser
+	 targetClass : org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser
+	 method : <init>
+	 semantic Similarity : 0.344
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dtd.XML11DTDProcessor
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$2
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.SecuritySupport$6
+	 targetClass : org.apache.xerces.jaxp.JAXPValidatorComponent$2
+	 method : setId
+	 semantic Similarity : 0.21
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.IntStack
+	 targetClass : org.apache.xerces.impl.xs.util.XSNamedMapImpl
+	 field : serialVersionUID
+	 semantic Similarity : 0.238
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.OneAttr
+	 targetClass : org.apache.html.dom.ObjectFactory
+	 field : val$cl
+	 semantic Similarity : 0.201
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : fType
+	 semantic Similarity : 0.074
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.ProcessingInstructionImpl
+	 targetClass : org.apache.xerces.dom.CharacterDataImpl
+	 method : getNodeName
+	 semantic Similarity : 0.336
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentScannerImpl
+	 targetClass : org.apache.xerces.impl.xs.SchemaGrammar
+	 semantic Similarity : 0.272
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.SchemaDVFactory
+	 targetClass : org.apache.xerces.impl.dv.xs.BaseDVFactory
+	 method : createTypeRestriction
+	 semantic Similarity : 0.637
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.ObjectFactory
+	 targetClass : org.apache.xerces.impl.dv.XSFacets
+	 method : clear
+	 semantic Similarity : 0.057
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport
+	 targetClass : org.apache.xerces.util.AugmentationsImpl
+	 method : <init>
+	 semantic Similarity : 0.224
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XSComplexTypeDecl
+	 targetClass : org.apache.xerces.impl.xs.SchemaGrammar$XSAnyType
+	 method : getTypeNamespace
+	 semantic Similarity : 0.432
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.AnyAtomicDV
+	 targetClass : org.apache.html.dom.HTMLImageElementImpl
+	 semantic Similarity : 0.22
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.WMLBrElement
+	 targetClass : org.apache.xerces.xni.grammars.XMLSchemaDescription
+	 field : USE_GRAMMAR_POOL_ONLY
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.util.HTTPInputSource
+	 targetClass : org.apache.html.dom.ObjectFactory$ConfigurationError
+	 method : pushContext
+	 semantic Similarity : 0.263
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.dtd.NOTATIONDatatypeValidator
+	 targetClass : org.apache.wml.dom.WMLAccessElementImpl
+	 field : fPArray
+	 semantic Similarity : 0.236
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.PSVIElementNSImpl
+	 targetClass : org.apache.xerces.xs.datatypes.ObjectList
+	 method : calcFollowList
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLEmElementImpl
+	 targetClass : org.apache.xerces.xni.NamespaceContext
+	 method : setClassName
+	 semantic Similarity : 0.29
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLSelectElementImpl
+	 targetClass : org.apache.xerces.dom.ElementImpl
+	 method : getValue
+	 semantic Similarity : 0.217
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.html.dom.HTMLFrameSetElementImpl
+	fields to move: 
+	methods to move: getSubGroupB getSubGroupB 
+	similarity/cohesion: 0.08333333333333333
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLTableSectionElementImpl
+	 targetClass : org.apache.xerces.impl.XMLDocumentFragmentScannerImpl
+	 method : getAlign
+	 semantic Similarity : 0.259
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 targetClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 method : createElementNS
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.xs.XSAttributeDeclaration
+	 targetClass : org.apache.html.dom.HTMLSelectElementImpl
+	 method : getTypeDefinition
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.dom.ProcessingInstructionImpl
+	 targetClass : org.apache.xerces.dom.DeferredProcessingInstructionImpl
+	 method : endDocument
+	 semantic Similarity : 0.261
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.util.XSGrammarPool
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDAbstractIDConstraintTraverser
+	 method : toXSModel
+	 semantic Similarity : 0.147
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLBuilder
+	 targetClass : org.apache.html.dom.HTMLElementImpl
+	 method : processingInstruction
+	 semantic Similarity : 0.304
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 field : fValidationManager
+	 semantic Similarity : 0.172
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityScanner
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : val$cl
+	 semantic Similarity : 0.1
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.dom.DOMImplementationImpl
+	fields to move: 
+	methods to move: <clinit> <clinit> <init> getDOMImplementation 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.parsers.XMLDocumentParser
+	 targetClass : org.apache.xerces.impl.dv.dtd.XML11IDREFDatatypeValidator
+	 semantic Similarity : 0.242
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.BaseMarkupSerializer
+	 targetClass : org.apache.xerces.impl.xs.traversers.OneAttr
+	 method : getXMLVersion
+	 semantic Similarity : 0.21
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.SAXParser
+	 targetClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 field : NOTIFY_BUILTIN_REFS
+	 semantic Similarity : 0.14
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.PSVIDOMImplementationImpl
+	 targetClass : org.apache.xerces.dom.CoreDOMImplementationImpl
+	 method : <clinit>
+	 semantic Similarity : 0.459
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.XSParticleDecl
+	 targetClass : org.apache.xerces.jaxp.validation.DOMValidatorHelper$DOMNamespaceContext
+	 field : fSchemaValidationManager
+	 semantic Similarity : 0.106
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.XMLEntityManager$ExternalEntity
+	fields to move: fDeferTraversingLocalElements 
+	methods to move: traverseLocal traverseLocal 
+	similarity/cohesion: 0.20512820512820512
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractSAXParser
+	 targetClass : org.apache.xerces.xinclude.SecuritySupport$3
+	 field : fLexicalHandlerParameterEntities
+	 semantic Similarity : 0.08
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.IntegerDV
+	 targetClass : org.apache.xerces.impl.dv.xs.DoubleDV
+	 method : getDTDContentModelSource
+	 semantic Similarity : 0.378
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLDoElementImpl
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDAbstractIDConstraintTraverser
+	 method : setType
+	 semantic Similarity : 0.079
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLCatalogResolver
+	 targetClass : org.apache.xerces.xs.ElementPSVI
+	 field : fPreferPublic
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.WMLAnchorElement
+	 targetClass : org.apache.xerces.impl.xs.traversers.SmallContainer
+	 field : name
+	 semantic Similarity : 0.249
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.xpointer.ElementSchemePointer$Tokens
+	 targetClass : org.apache.xerces.impl.dtd.models.CMBinOp
+	 semantic Similarity : 0.14
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xinclude.XIncludeNamespaceSupport
+	 targetClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 field : fValidContext
+	 semantic Similarity : 0.199
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.DeferredDocumentImpl$IntVector
+	 targetClass : org.apache.html.dom.HTMLUListElementImpl
+	 method : addElement
+	 semantic Similarity : 0.092
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.DOMOutputImpl
+	 targetClass : org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool
+	 method : <init>
+	 semantic Similarity : 0.154
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.IDREFDV
+	 targetClass : org.apache.xerces.impl.dv.xs.DateDV
+	 field : fString
+	 semantic Similarity : 0.316
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dtd.XMLElementDecl
+	 targetClass : org.apache.wml.dom.WMLGoElementImpl
+	 field : TYPE_ANY
+	 semantic Similarity : 0.07
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.DOMSerializerImpl
+	 targetClass : org.apache.xerces.util.XMLChar
+	 field : NAMESPACES
+	 semantic Similarity : 0.171
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xml.resolver.tests.BasicResolverTests
+	 field : DOCUMENT_CLASS_NAME
+	 semantic Similarity : 0.079
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.XPointerParserConfiguration
+	 targetClass : org.apache.xerces.impl.dv.ValidationContext
+	 method : configurePipeline
+	 semantic Similarity : 0.209
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.DecimalDV
+	 targetClass : org.apache.wml.dom.WMLSmallElementImpl
+	 field : fType
+	 semantic Similarity : 0.174
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.DurationDV
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultNode
+	 semantic Similarity : 0.192
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.dom.DocumentImpl
+	 targetClass : org.apache.html.dom.HTMLDocumentImpl
+	 method : renamedAttrNode
+	 semantic Similarity : 0.154
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.jaxp.DocumentBuilderImpl
+	 targetClass : org.apache.wml.dom.WMLDocumentImpl
+	 method : createNodeIterator
+	 semantic Similarity : 0.098
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xni.parser.XMLInputSource
+	 targetClass : org.apache.xerces.xs.XSObjectList
+	 field : fSystemId
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.impl.dv.SecuritySupport$6
+	 method : createDTDScanner
+	 semantic Similarity : 0.174
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : GENERATE_SYNTHETIC_ANNOTATIONS
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dtd.models.DFAContentModel
+	 targetClass : org.apache.xerces.dom.DOMXSImplementationSourceImpl
+	 field : fEpsilonString
+	 semantic Similarity : 0.089
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath
+	 targetClass : org.apache.xerces.impl.XMLDocumentScannerImpl$ContentDispatcher
+	 field : fLocationPaths
+	 semantic Similarity : 0.09
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.jaxp.validation.ValidatorImpl
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLTableRowElementImpl
+	 targetClass : org.apache.xerces.jaxp.validation.ValidatorHelper
+	 method : getGrammarType
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDocumentInfo
+	 field : fInDTD
+	 semantic Similarity : 0.197
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$XSFacetImpl
+	 targetClass : org.apache.html.dom.HTMLAppletElementImpl
+	 semantic Similarity : 0.197
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Op$ChildOp
+	 targetClass : org.apache.xerces.impl.xpath.regex.Op
+	 semantic Similarity : 0.31
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.ElementNSImpl
+	 targetClass : org.apache.xerces.xinclude.SecuritySupport$2
+	 method : setName
+	 semantic Similarity : 0.135
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.wml.WMLTableElement
+	 targetClass : org.apache.xerces.impl.XMLDocumentFragmentScannerImpl
+	 method : setOrdered
+	 semantic Similarity : 0.269
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.util.XSNamedMapImpl
+	 targetClass : org.apache.xml.resolver.tools.ResolvingXMLFilter
+	 field : fNSNum
+	 semantic Similarity : 0.27
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.wml.WMLWmlElement
+	fields to move: 
+	methods to move: setXmlLang 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.PrecisionDecimalDV$XPrecisionDecimal
+	 targetClass : org.apache.xerces.impl.xs.models.XSCMUniOp
+	 method : compareFractionalPart
+	 semantic Similarity : 0.07
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.AnyURIDV
+	 targetClass : org.apache.xerces.impl.xs.XSNotationDecl
+	 method : <clinit>
+	 semantic Similarity : 0.102
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLOListElementImpl
+	 targetClass : org.apache.xerces.util.XMLAttributesImpl$Attribute
+	 method : <init>
+	 semantic Similarity : 0.107
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.dtd.ListDatatypeValidator
+	fields to move: 
+	methods to move: getErrorHandler 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.impl.xs.util.SimpleLocator
+	 method : cleanup
+	 semantic Similarity : 0.145
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Op$StringOp
+	 targetClass : org.apache.xerces.impl.xs.identity.KeyRef
+	 field : ch
+	 semantic Similarity : 0.237
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : VALIDATE_ANNOTATIONS
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xni.XMLResourceIdentifier
+	 targetClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$2
+	 field : fNextSibling
+	 semantic Similarity : 0.344
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLAreaElementImpl
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : getAlt
+	 semantic Similarity : 0.256
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.WMLOptionElement
+	 targetClass : org.apache.xerces.impl.xs.util.NSItemListImpl
+	 method : <clinit>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.DoubleDV
+	 targetClass : org.apache.xerces.impl.dv.SecuritySupport$4
+	 field : xmlURI
+	 semantic Similarity : 0.164
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.xs.datatypes.ByteList
+	 targetClass : org.apache.xerces.impl.xpath.regex.REUtil
+	 method : startValueScopeFor
+	 semantic Similarity : 0.201
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter
+	 targetClass : org.apache.xerces.impl.xs.identity.IdentityConstraint
+	 method : <init>
+	 semantic Similarity : 0.214
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xml.serialize.XML11Serializer
+	 targetClass : org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool
+	 semantic Similarity : 0.178
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 targetClass : org.apache.xerces.impl.xs.XSModelImpl
+	 field : nodeType
+	 semantic Similarity : 0.296
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$6
+	 targetClass : org.apache.xerces.jaxp.validation.SimpleXMLSchema
+	 method : newValidatorHandler
+	 semantic Similarity : 0.178
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.JAXPConstants
+	 targetClass : org.apache.xerces.impl.xs.models.CMNodeFactory
+	 field : serialVersionUID
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dtd.models.CMStateSet
+	 targetClass : org.apache.xerces.impl.xs.XMLSchemaLoader$LocationArray
+	 method : equals
+	 semantic Similarity : 0.205
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : DTD_SCANNER
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.XSSimpleType
+	 targetClass : org.apache.xerces.dom.AttrNSImpl
+	 field : PRIMITIVE_HEXBINARY
+	 semantic Similarity : 0.205
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.dom.DOMNormalizer
+	 field : OPTION
+	 semantic Similarity : 0.242
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XSAttributeDecl
+	 targetClass : org.apache.xerces.parsers.XIncludeAwareParserConfiguration
+	 method : setValues
+	 semantic Similarity : 0.152
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom3.as.DOMImplementationAS
+	 targetClass : org.apache.xerces.util.DOMEntityResolverWrapper
+	 field : TBODY
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLHeadElementImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.DoubleDV$XDouble
+	 method : setProfile
+	 semantic Similarity : 0.154
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fXML11DTDScanner
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.ObjectFactory
+	 targetClass : org.apache.xerces.impl.xs.XMLSchemaValidator$LocalIDKey
+	 method : newInstance
+	 semantic Similarity : 0.116
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xs.XSAnnotation
+	 targetClass : org.apache.xerces.impl.dv.xs.FloatDV$XFloat
+	 field : W3C_DOM_ELEMENT
+	 semantic Similarity : 0.104
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath$NodeTest
+	 targetClass : org.apache.xerces.impl.Version
+	 semantic Similarity : 0.208
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xml.resolver.readers.XCatalogReader
+	 targetClass : org.apache.xerces.impl.dtd.XMLSimpleType
+	 semantic Similarity : 0.266
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPathException
+	 targetClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$ValidationContextImpl
+	 field : fGrammars
+	 semantic Similarity : 0.182
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.SymbolTable$Entry
+	 targetClass : org.apache.html.dom.HTMLButtonElementImpl
+	 field : characters
+	 semantic Similarity : 0.167
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xml.serialize.OutputFormat
+	 targetClass : org.apache.xerces.xs.datatypes.XSDateTime
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.models.XSCMBinOp
+	 targetClass : org.apache.xerces.impl.dtd.models.CMNode
+	 method : <init>
+	 semantic Similarity : 0.416
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.TimeDV
+	 targetClass : org.apache.wml.dom.WMLPElementImpl
+	 semantic Similarity : 0.26
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.DocumentImpl
+	 targetClass : org.apache.html.dom.HTMLCollectionImpl
+	 method : removingNode
+	 semantic Similarity : 0.157
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.dtd.XMLNSDTDValidator
+	 targetClass : org.apache.xerces.impl.dtd.XMLDTDValidator
+	 field : val$name
+	 semantic Similarity : 0.429
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.DatatypeException
+	 targetClass : org.apache.xerces.impl.dv.InvalidDatatypeValueException
+	 method : dispatch
+	 semantic Similarity : 0.341
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : JAXP_SCHEMA_LANGUAGE
+	 semantic Similarity : 0.401
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.InvalidDatatypeFacetException
+	 targetClass : org.apache.xerces.xni.parser.XMLComponent
+	 semantic Similarity : 0.236
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.dom.WMLSmallElementImpl
+	 targetClass : org.apache.wml.dom.WMLTimerElementImpl
+	 field : fType
+	 semantic Similarity : 0.547
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.w3c.dom.html.HTMLDOMImplementation
+	 targetClass : org.apache.xerces.impl.xpath.regex.RegularExpression$Context
+	 method : checkExtraRules
+	 semantic Similarity : 0.133
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.CharacterDataImpl$1
+	 targetClass : org.apache.xerces.xs.XSObject
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLParamElementImpl
+	 targetClass : org.apache.xerces.dom.ParentNode
+	 method : getActualValue
+	 semantic Similarity : 0.141
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.HTMLButtonElementImpl
+	 targetClass : org.apache.xerces.dom3.as.ASDataType
+	 field : serialVersionUID
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.models.XSDFACM
+	 targetClass : org.apache.xerces.impl.dv.SecuritySupport$4
+	 method : checkUniqueParticleAttribution
+	 semantic Similarity : 0.097
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom3.as.ASAttributeDeclaration
+	 targetClass : org.apache.html.dom.SecuritySupport
+	 field : VALUE_NONE
+	 semantic Similarity : 0.16
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.XMLNamespaceBinder
+	 targetClass : org.apache.xerces.impl.dv.xs.ListDV
+	 field : fAttributeQName
+	 semantic Similarity : 0.158
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.PSVIDocumentImpl
+	 targetClass : org.apache.xerces.impl.xs.XMLSchemaValidator$ShortVector
+	 field : serialVersionUID
+	 semantic Similarity : 0.114
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.WMLFieldsetElement
+	 targetClass : org.apache.html.dom.HTMLButtonElementImpl
+	 method : cloneNode
+	 semantic Similarity : 0.263
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.JAXPValidatorComponent$2
+	 targetClass : org.apache.xerces.impl.XMLScanner
+	 method : getFrameBorder
+	 semantic Similarity : 0.092
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fVersionDetector
+	 semantic Similarity : 0.533
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : fType
+	 semantic Similarity : 0.074
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLModElementImpl
+	 targetClass : org.apache.xerces.impl.dtd.XMLAttributeDecl
+	 method : setCite
+	 semantic Similarity : 0.106
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.dom3.as.ASNotationDeclaration
+	fields to move: 
+	methods to move: getSystemId 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.JAXPValidatorComponent$2
+	 targetClass : org.apache.xerces.impl.XML11DocumentScannerImpl
+	 field : EMPTY_LIST
+	 semantic Similarity : 0.1
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool
+	 targetClass : org.apache.wml.dom.WMLEmElementImpl
+	 field : fInternalBufferSize
+	 semantic Similarity : 0.09
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.dom.WMLImgElementImpl
+	 targetClass : org.apache.xerces.jaxp.validation.StreamValidatorHelper
+	 field : OCCURRENCE_UNKNOWN
+	 semantic Similarity : 0.064
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSDAttributeTraverser
+	 targetClass : org.apache.html.dom.HTMLUListElementImpl
+	 method : checkDefaultValid
+	 semantic Similarity : 0.108
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.ObjectFactory$ConfigurationError
+	 targetClass : org.apache.xerces.util.ShadowedSymbolTable
+	 method : getURI0
+	 semantic Similarity : 0.17
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLNSDocumentScannerImpl
+	 targetClass : org.apache.xerces.impl.XMLScanner
+	 method : access$0
+	 semantic Similarity : 0.222
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : XMLGRAMMAR_POOL
+	 semantic Similarity : 0.533
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.util.XMLChar
+	 targetClass : org.apache.xerces.xni.parser.XMLDocumentSource
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.identity.ValueStore
+	 targetClass : org.apache.xerces.dom.ObjectFactory$ConfigurationError
+	 method : <init>
+	 semantic Similarity : 0.142
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.dom.DeferredDocumentImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.DoubleDV
+	 semantic Similarity : 0.086
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.wml.dom.WMLStrongElementImpl
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLNamespaceBinder
+	 targetClass : org.apache.xerces.impl.XML11NamespaceBinder
+	 method : setProperty
+	 semantic Similarity : 0.278
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.validation.XMLSchemaFactory$XMLGrammarPoolWrapper
+	 targetClass : org.apache.xerces.xpointer.XPointerHandler$Scanner
+	 method : retrieveInitialGrammarSet
+	 semantic Similarity : 0.175
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.util.HexBin
+	 targetClass : org.apache.xerces.util.AugmentationsImpl
+	 field : fException
+	 semantic Similarity : 0.206
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath
+	 targetClass : org.apache.xerces.impl.xs.identity.Field$XPath
+	 method : toString
+	 semantic Similarity : 0.387
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLOListElementImpl
+	 targetClass : org.apache.xerces.dom.ChildNode
+	 method : getLiteralSystemId
+	 semantic Similarity : 0.192
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.xni.parser.XMLComponentManager
+	 targetClass : org.apache.xerces.dom.DOMLocatorImpl
+	 method : getProperty
+	 semantic Similarity : 0.208
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xml.serialize.XML11Serializer
+	 field : fErrorHandler
+	 semantic Similarity : 0.134
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.xinclude.XIncludeNamespaceSupport
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xml.serialize.XMLSerializer
+	 targetClass : org.apache.xml.serialize.BaseMarkupSerializer
+	 field : fPreserveSpace
+	 semantic Similarity : 0.736
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 targetClass : org.apache.xerces.parsers.ObjectFactory$ConfigurationError
+	 semantic Similarity : 0.225
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fComponents
+	 semantic Similarity : 0.533
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.dom.ElementDefinitionImpl
+	 targetClass : org.apache.xerces.xinclude.SecuritySupport$7
+	 semantic Similarity : 0.126
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.util.XSGrammarPool
+	 targetClass : org.apache.xerces.impl.dv.xs.UnionDV
+	 method : startAttlist
+	 semantic Similarity : 0.165
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLGrammarPoolImpl
+	 targetClass : org.apache.xerces.impl.XML11NSDocumentScannerImpl$NS11ContentDispatcher
+	 field : TABLE_SIZE
+	 semantic Similarity : 0.115
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xs.XMLSchemaValidator$ShortVector
+	 targetClass : org.apache.xerces.impl.xs.XSGrammarBucket
+	 semantic Similarity : 0.127
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.wml.WMLPElement
+	 targetClass : org.apache.html.dom.HTMLOptGroupElementImpl
+	 semantic Similarity : 0.244
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$3
+	 targetClass : org.apache.xerces.impl.xs.SchemaGrammar$Schema4Annotations
+	 field : entityLocation
+	 semantic Similarity : 0.104
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.dom.EntityReferenceImpl
+	 targetClass : org.apache.xerces.jaxp.validation.EmptyXMLSchema
+	 semantic Similarity : 0.178
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.util.AugmentationsImpl$SmallContainer
+	fields to move: this$0 fAugmentations fNumEntries 
+	methods to move: expand 
+	similarity/cohesion: 0.1875
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLInputElementImpl
+	 targetClass : org.apache.xerces.dom3.as.DOMImplementationAS
+	 method : getMaxLength
+	 semantic Similarity : 0.108
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.XSWildcardDecl
+	 targetClass : org.apache.xerces.impl.xpath.regex.Op$StringOp
+	 field : fType
+	 semantic Similarity : 0.14
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Token$ClosureToken
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token
+	 method : setMax
+	 semantic Similarity : 0.552
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$2
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : run
+	 semantic Similarity : 0.103
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.QNameDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : <clinit>
+	 semantic Similarity : 0.361
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom3.as.DOMASBuilder
+	 targetClass : org.apache.html.dom.HTMLTableRowElementImpl
+	 field : fLocale
+	 semantic Similarity : 0.2
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.models.XSCMUniOp
+	 targetClass : org.apache.xerces.impl.dtd.models.CMNode
+	 method : compareFractionalPart
+	 semantic Similarity : 0.458
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.xs.XSObject
+	fields to move: 
+	methods to move: getType 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Op$ChildOp
+	 targetClass : org.apache.xerces.impl.xpath.regex.Op$ModifierOp
+	 method : createModifier
+	 semantic Similarity : 0.271
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLOneventElementImpl
+	 targetClass : org.apache.xerces.dom.RangeExceptionImpl
+	 method : <init>
+	 semantic Similarity : 0.251
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.WMLMetaElement
+	 targetClass : org.apache.xerces.xinclude.SecuritySupport$3
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.util.SynchronizedSymbolTable
+	 targetClass : org.apache.xerces.xs.datatypes.XSFloat
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.xs.QNameDV$XQName
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.DatatypeValidator
+	 targetClass : org.apache.xerces.dom.DOMNormalizer
+	 field : W3C_XML_SCHEMA
+	 semantic Similarity : 0.242
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.util.AugmentationsImpl$AugmentationsItemsContainer
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.io.UCSReader
+	fields to move: fBuffer fEncoding 
+	methods to move: read 
+	similarity/cohesion: 0.16666666666666666
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentFragmentScannerImpl
+	 targetClass : org.apache.xerces.impl.XML11NSDocumentScannerImpl
+	 method : handleEndElement
+	 semantic Similarity : 0.52
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.wml.WMLPElement
+	fields to move: children 
+	methods to move: addChild size addChild 
+	similarity/cohesion: 0.14646464646464646
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.util.EncodingMap
+	fields to move: 
+	methods to move: <clinit> <clinit> 
+	similarity/cohesion: 0.07142857142857142
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 field : relations
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.wml.WMLNoopElement
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityManager$RewindableInputStream
+	 targetClass : org.apache.xerces.impl.xpath.regex.Token$ModifierToken
+	 semantic Similarity : 0.276
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.wml.dom.WMLTdElementImpl
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : <init>
+	 semantic Similarity : 0.262
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$2
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDHandler$XSDKey
+	 method : run
+	 semantic Similarity : 0.145
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.ObjectFactory
+	 targetClass : org.apache.wml.dom.WMLFieldsetElementImpl
+	 field : DEFAULT_PROPERTIES_FILENAME
+	 semantic Similarity : 0.332
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.EntityReferenceImpl
+	 targetClass : org.apache.xerces.impl.dv.DatatypeValidator
+	 method : <clinit>
+	 semantic Similarity : 0.172
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 field : fImmutableVersion
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.DurationDV
+	 targetClass : org.apache.html.dom.HTMLInputElementImpl
+	 method : getPrefix
+	 semantic Similarity : 0.229
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xpointer.XPointerHandler$Tokens
+	 targetClass : org.apache.wml.dom.WMLSmallElementImpl
+	 field : fTokenCount
+	 semantic Similarity : 0.17
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom3.as.ASNamedObjectMap
+	 targetClass : org.apache.xerces.impl.dv.dtd.IDDatatypeValidator
+	 field : serialVersionUID
+	 semantic Similarity : 0.252
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.SecuritySupport$6
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.Base64BinaryDV
+	 targetClass : org.apache.wml.WMLImgElement
+	 field : serialVersionUID
+	 semantic Similarity : 0.247
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.CollectionIndex
+	 targetClass : org.apache.xerces.util.XMLGrammarPoolImpl$Entry
+	 field : this$0
+	 semantic Similarity : 0.186
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.parsers.BasicParserConfiguration
+	 field : VALIDATION_MANAGER
+	 semantic Similarity : 0.583
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.dom.DOMNormalizer
+	 targetClass : org.apache.html.dom.HTMLDivElementImpl
+	 semantic Similarity : 0.234
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.html.dom.HTMLSelectElementImpl
+	fields to move: _options 
+	methods to move: getOptions getLength 
+	similarity/cohesion: 0.18666666666666665
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xs.XSModelGroupImpl
+	 targetClass : org.apache.xerces.parsers.AbstractSAXParser$LocatorProxy
+	 semantic Similarity : 0.097
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter
+	 targetClass : org.apache.xerces.util.XMLChar
+	 method : reportError
+	 semantic Similarity : 0.187
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.dtd.XML11DTDDVFactoryImpl
+	 targetClass : org.apache.xerces.xinclude.XIncludeHandler
+	 method : getBuiltInDV
+	 semantic Similarity : 0.161
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.SchemaGrammar$BuiltinAttrDecl
+	 targetClass : org.apache.html.dom.HTMLFieldSetElementImpl
+	 method : setValues
+	 semantic Similarity : 0.193
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.io.MalformedByteSequenceException
+	 targetClass : org.apache.wml.dom.WMLInputElementImpl
+	 field : fFormatter
+	 semantic Similarity : 0.245
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.html.dom.HTMLParamElementImpl
+	fields to move: 
+	methods to move: getName 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.util.SimpleLocator
+	fields to move: line 
+	methods to move: getLineNumber 
+	similarity/cohesion: 0.08333333333333333
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.CDATASectionImpl
+	 targetClass : org.apache.xerces.xinclude.ObjectFactory
+	 method : <init>
+	 semantic Similarity : 0.201
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Op$StringOp
+	 targetClass : org.apache.xerces.xs.XSObject
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : fType
+	 semantic Similarity : 0.074
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.html.dom.HTMLElementImpl
+	 targetClass : org.apache.html.dom.HTMLParagraphElementImpl
+	 method : setLang
+	 semantic Similarity : 0.249
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.jaxp.SAXParserImpl
+	 targetClass : org.apache.xerces.jaxp.JAXPConstants
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fXML11DTDValidator
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 targetClass : org.apache.xerces.impl.xpath.regex.RangeToken
+	 field : localpart
+	 semantic Similarity : 0.113
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLRefreshElementImpl
+	 targetClass : org.apache.xerces.impl.validation.ValidationManager
+	 method : getId
+	 semantic Similarity : 0.09
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom3.as.DOMImplementationAS
+	 targetClass : org.apache.xerces.impl.xs.identity.XPathMatcher
+	 method : getMaxLength
+	 semantic Similarity : 0.158
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.dom3.as.DOMASBuilder
+	fields to move: 
+	methods to move: setAbstractSchema 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.HTMLBaseFontElementImpl
+	 targetClass : org.apache.xerces.impl.dv.InvalidDatatypeFacetException
+	 field : serialVersionUID
+	 semantic Similarity : 0.24
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.resolver.readers.TR9401CatalogReader
+	 targetClass : org.apache.xerces.dom3.as.ASAttributeDeclaration
+	 method : setEncoding
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.SecuritySupport$3
+	 targetClass : org.apache.xerces.dom.CharacterDataImpl$1
+	 field : fCatalogsList
+	 semantic Similarity : 0.165
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.XML11EntityScanner
+	 targetClass : org.apache.xml.resolver.CatalogException
+	 method : scanChar
+	 semantic Similarity : 0.213
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.DeferredDocumentImpl$RefCount
+	 targetClass : org.apache.wml.dom.WMLTemplateElementImpl
+	 field : this$0
+	 semantic Similarity : 0.116
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.AttrImpl
+	 targetClass : org.apache.xerces.dom.EntityReferenceImpl
+	 method : setReadOnly
+	 semantic Similarity : 0.433
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.SecuritySupport$2
+	 targetClass : org.apache.wml.dom.WMLOptionElementImpl
+	 field : fItemValueTypes
+	 semantic Similarity : 0.114
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLInputElementImpl
+	 targetClass : org.apache.xerces.parsers.SAXParser
+	 method : setId
+	 semantic Similarity : 0.157
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.XMLSerializer
+	 targetClass : org.apache.html.dom.HTMLTableCaptionElementImpl
+	 method : printText
+	 semantic Similarity : 0.28
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.XML11NSDocumentScannerImpl$NS11ContentDispatcher
+	 targetClass : org.apache.xerces.xs.AttributePSVI
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.FloatDV$XFloat
+	 targetClass : org.apache.xerces.dom.CharacterDataImpl
+	 field : W3C_DOM_ELEMENT
+	 semantic Similarity : 0.143
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$4
+	 targetClass : org.apache.xerces.impl.XML11NamespaceBinder
+	 field : val$propName
+	 semantic Similarity : 0.252
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.ElementDefinitionImpl
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : getIName
+	 semantic Similarity : 0.218
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.jaxp.validation.AbstractXMLSchema
+	 targetClass : org.apache.xerces.jaxp.validation.WeakReferenceXMLSchema
+	 method : newValidator
+	 semantic Similarity : 0.264
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.PrecisionDecimalDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : getActualValue
+	 semantic Similarity : 0.584
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 targetClass : org.apache.xerces.parsers.SecuritySupport$3
+	 method : startAttlist
+	 semantic Similarity : 0.079
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLTableCellElementImpl
+	 targetClass : org.apache.xerces.parsers.BasicParserConfiguration
+	 method : <init>
+	 semantic Similarity : 0.242
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLCatalogResolver
+	 targetClass : org.apache.xerces.impl.xpath.regex.Op$ModifierOp
+	 field : fCatalog
+	 semantic Similarity : 0.08
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.CharacterDataImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.AbstractDateTimeDV
+	 method : setNodeValueInternal
+	 semantic Similarity : 0.316
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.NonValidatingConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fInputSource
+	 semantic Similarity : 0.55
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.resolver.CatalogException
+	 targetClass : org.apache.xerces.dom.SecuritySupport$3
+	 field : WRAPPER
+	 semantic Similarity : 0.198
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.NotationImpl
+	 targetClass : org.apache.xml.serialize.ObjectFactory$ConfigurationError
+	 field : baseURI
+	 semantic Similarity : 0.226
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.dom.DeepNodeListImpl
+	fields to move: nsName enableNS rootNode 
+	methods to move: nextMatchingElementAfter 
+	similarity/cohesion: 0.1875
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xinclude.SecuritySupport$8
+	 targetClass : org.apache.xml.serialize.IndentPrinter
+	 field : val$f
+	 semantic Similarity : 0.101
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.dom.DocumentImpl
+	 targetClass : org.apache.html.dom.HTMLDocumentImpl
+	 method : insertedNode
+	 semantic Similarity : 0.154
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.html.dom.CollectionIndex
+	 targetClass : org.apache.wml.dom.WMLUElementImpl
+	 semantic Similarity : 0.112
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath$Tokens
+	 targetClass : org.apache.xerces.xs.datatypes.ObjectList
+	 semantic Similarity : 0.127
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.ListDV$ListData
+	 targetClass : org.apache.xerces.impl.io.UTF8Reader
+	 field : exception
+	 semantic Similarity : 0.215
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.AbstractSAXParser$AttributesProxy
+	 targetClass : org.apache.xerces.xs.XSNamespaceItemList
+	 method : getType
+	 semantic Similarity : 0.227
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath$Step
+	 targetClass : org.apache.xerces.impl.XMLEntityManager$InternalEntity
+	 field : fAugmentations
+	 semantic Similarity : 0.187
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Op$UnionOp
+	 targetClass : org.apache.xerces.jaxp.validation.WeakReferenceXMLSchema
+	 field : serialVersionUID
+	 semantic Similarity : 0.128
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityScanner
+	 targetClass : org.apache.xerces.impl.dv.xs.AbstractDateTimeDV
+	 field : fSymbolTable
+	 semantic Similarity : 0.261
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 field : DEFAULT_DOCUMENT_CLASS_NAME
+	 semantic Similarity : 0.612
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath$NodeTest
+	 targetClass : org.apache.xerces.impl.dv.InvalidDatatypeFacetException
+	 field : DEFAULT_LINE_LENGTH
+	 semantic Similarity : 0.255
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.HTMLCollectionImpl
+	 targetClass : org.apache.xerces.impl.dtd.models.CMStateSet
+	 field : MONTHDAY_SIZE
+	 semantic Similarity : 0.112
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.NonValidatingConfiguration
+	 targetClass : org.apache.xerces.parsers.BasicParserConfiguration
+	 field : WARN_ON_DUPLICATE_ATTDEF
+	 semantic Similarity : 0.654
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.PSVIDocumentImpl
+	 targetClass : org.apache.xerces.dom.DocumentImpl
+	 method : createElementNS
+	 semantic Similarity : 0.281
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLGrammarPoolImpl$Entry
+	 targetClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$XSFacetImpl
+	 field : grammar
+	 semantic Similarity : 0.103
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.DeferredElementNSImpl
+	 targetClass : org.apache.xerces.impl.xs.XMLSchemaValidator$KeyRefValueStore
+	 method : <init>
+	 semantic Similarity : 0.117
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$1
+	 targetClass : org.apache.xerces.impl.dv.DatatypeException
+	 method : getSymbol
+	 semantic Similarity : 0.209
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dtd.XMLNSDTDValidator
+	 targetClass : org.apache.html.dom.HTMLHRElementImpl
+	 method : get
+	 semantic Similarity : 0.12
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.XSSimpleType
+	 targetClass : org.apache.xerces.xs.XSAttributeUse
+	 field : PRIMITIVE_DATE
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.xinclude.SecuritySupport$8
+	 targetClass : org.apache.html.dom.HTMLFrameSetElementImpl
+	 semantic Similarity : 0.118
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.EntityDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : getActualValue
+	 semantic Similarity : 0.366
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.DeferredEntityImpl
+	 targetClass : org.apache.xerces.impl.xs.XSGroupDecl
+	 field : val$f
+	 semantic Similarity : 0.113
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.ElementNSImpl
+	 targetClass : org.apache.html.dom.CollectionIndex
+	 field : serialVersionUID
+	 semantic Similarity : 0.132
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSDAbstractIDConstraintTraverser
+	 targetClass : org.apache.xerces.impl.xs.traversers.XSDKeyrefTraverser
+	 method : toXSModel
+	 semantic Similarity : 0.574
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : fType
+	 semantic Similarity : 0.074
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.Serializer
+	 targetClass : org.apache.xerces.xni.parser.XMLParserConfiguration
+	 field : XML_URI
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.XMLGrammarCachingConfiguration
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultText
+	 field : URI_SCHEMAFORSCHEMA
+	 semantic Similarity : 0.211
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLSymbols
+	 targetClass : org.apache.wml.WMLDocument
+	 field : DEFAULT_MAX_OCCUR_NODE_LIMIT
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.validation.XMLSchemaFactory
+	 targetClass : org.apache.xerces.dom.EntityReferenceImpl
+	 method : setResourceResolver
+	 semantic Similarity : 0.198
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.PSVIAttrNSImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.AnyAtomicDV
+	 field : fErrorCodes
+	 semantic Similarity : 0.218
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLAreaElementImpl
+	 targetClass : org.apache.xerces.dom.ParentNode
+	 method : setTarget
+	 semantic Similarity : 0.125
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xerces.parsers.XMLParser
+	 field : fCreateEntityRefNodes
+	 semantic Similarity : 0.269
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 field : relationsRowResizeFactor
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11Configuration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : NAMESPACES
+	 semantic Similarity : 0.549
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 field : singleton
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.util.SecurityManager
+	 targetClass : org.apache.xerces.dom.ElementImpl
+	 method : setClassName
+	 semantic Similarity : 0.107
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.UnionDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : startAttlist
+	 semantic Similarity : 0.347
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.REUtil
+	 targetClass : org.apache.xerces.xni.parser.XMLEntityResolver
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentScannerImpl
+	 targetClass : org.apache.xerces.impl.xs.SchemaGrammar$Schema4Annotations
+	 method : startEntity
+	 semantic Similarity : 0.168
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLElementImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.SchemaDateTimeException
+	 method : setId
+	 semantic Similarity : 0.172
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+	 targetClass : org.apache.xerces.impl.dv.xs.IntegerDV
+	 method : compare
+	 semantic Similarity : 0.143
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Token$ClosureToken
+	 targetClass : org.apache.xerces.jaxp.validation.XSGrammarPoolContainer
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.validation.SoftReferenceGrammarPool$SoftGrammarReference
+	 targetClass : org.apache.xerces.dom.DeferredElementImpl
+	 method : multiNodes
+	 semantic Similarity : 0.137
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.dv.xs.IDDV
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dtd.models.CMLeaf
+	 targetClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$4
+	 field : fCurrentNode
+	 semantic Similarity : 0.203
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.validation.XMLSchemaFactory$XMLGrammarPoolImplExtension
+	 targetClass : org.apache.xerces.impl.xpath.regex.Match
+	 field : EMPTY_GROUP
+	 semantic Similarity : 0.181
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Token
+	 targetClass : org.apache.xerces.dom.DocumentImpl$LEntry
+	 field : BACKREFERENCE
+	 semantic Similarity : 0.144
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.dom.ElementDefinitionImpl
+	 targetClass : org.apache.xerces.dom.DeferredElementDefinitionImpl
+	 method : setIValue
+	 semantic Similarity : 0.429
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.XMLSchemaValidator$XPathMatcherStack
+	 targetClass : org.apache.xerces.dom.ParentNode$1
+	 field : READONLY
+	 semantic Similarity : 0.18
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom3.as.ASContentModel
+	 targetClass : org.apache.wml.WMLCardElement
+	 method : getSubModels
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLIsIndexElementImpl
+	 targetClass : org.apache.html.dom.HTMLInputElementImpl
+	 method : setPrompt
+	 semantic Similarity : 0.263
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.WMLTableElement
+	 targetClass : org.apache.xerces.impl.xs.XMLSchemaValidator$UniqueValueStore
+	 field : fStrings
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xerces.parsers.AbstractXMLDocumentParser
+	 field : fFilterReject
+	 semantic Similarity : 0.612
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.CollectionIndex
+	 targetClass : org.apache.xerces.impl.dtd.XMLAttributeDecl
+	 field : serialVersionUID
+	 semantic Similarity : 0.139
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityScanner
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 field : fLocationPaths
+	 semantic Similarity : 0.1
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.SecuritySupport
+	 targetClass : org.apache.xerces.jaxp.validation.ValidatorHandlerImpl$XMLSchemaTypeInfoProvider
+	 field : fSymbolTable
+	 semantic Similarity : 0.195
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.parsers.ObjectFactory
+	 targetClass : org.apache.xerces.dom.ObjectFactory$ConfigurationError
+	 method : <init>
+	 semantic Similarity : 0.221
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.dom.DOMNormalizer
+	 targetClass : org.apache.xerces.dom.ElementImpl
+	 field : W3C_XML_SCHEMA
+	 semantic Similarity : 0.33
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.SecuritySupport$1
+	 targetClass : org.apache.xerces.impl.xs.SchemaSymbols
+	 field : lookUpHexAlphabet
+	 semantic Similarity : 0.105
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.wml.WMLPostfieldElement
+	 targetClass : org.apache.html.dom.HTMLTableSectionElementImpl
+	 semantic Similarity : 0.256
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.xni.XMLLocator
+	 targetClass : org.apache.xml.resolver.Resolver
+	 method : getLineNumber
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentScannerImpl$XMLDeclDispatcher
+	 targetClass : org.apache.xerces.xinclude.SecuritySupport$5
+	 method : <init>
+	 semantic Similarity : 0.222
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.opti.NamedNodeMapImpl
+	fields to move: 
+	methods to move: setSize 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.xni.parser.XMLDTDScanner
+	 targetClass : org.apache.xerces.impl.xs.models.XSCMBinOp
+	 method : scanDTDInternalSubset
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.dom.CoreDOMImplementationImpl
+	 targetClass : org.apache.xerces.dom.DOMImplementationImpl
+	 method : createLSSerializer
+	 semantic Similarity : 0.454
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.xpointer.ElementSchemePointer
+	 targetClass : org.apache.xerces.xs.XSModel
+	 field : fFoundDepth
+	 semantic Similarity : 0.286
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dtd.models.CMStateSet
+	 targetClass : org.apache.xerces.impl.xs.XSAttributeDecl
+	 semantic Similarity : 0.059
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.html.dom.HTMLHeadingElementImpl
+	 targetClass : org.apache.xerces.dom.ElementImpl
+	 method : validate
+	 semantic Similarity : 0.241
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.identity.ValueStore
+	fields to move: 
+	methods to move: setType 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.UnionDV
+	 targetClass : org.apache.xerces.impl.dv.xs.TypeValidator
+	 method : <init>
+	 semantic Similarity : 0.347
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom3.as.ASContentModel
+	 targetClass : org.apache.xerces.impl.xs.opti.TextImpl
+	 field : defaultUseStaticCatalog
+	 semantic Similarity : 0.21
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fConfigUpdated
+	 semantic Similarity : 0.533
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$1
+	 targetClass : org.apache.xerces.util.DatatypeMessageFormatter
+	 field : fDocumentImpl
+	 semantic Similarity : 0.165
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.html.dom.HTMLObjectElementImpl
+	fields to move: 
+	methods to move: getCode 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.XMLEntityManager$CharacterBufferPool
+	fields to move: fInternalTop fExternalTop fInternalBufferPool 
+	methods to move: returnToPool 
+	similarity/cohesion: 0.21428571428571427
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.parsers.BasicParserConfiguration
+	 method : createDTDValidator
+	 semantic Similarity : 0.583
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.html.dom.HTMLOListElementImpl
+	 targetClass : org.apache.xml.resolver.apps.xread
+	 field : debug
+	 semantic Similarity : 0.125
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.util.XMLAttributesImpl$Attribute
+	 targetClass : org.apache.xml.serialize.SerializerFactoryImpl
+	 method : retrieveInitialGrammarSet
+	 semantic Similarity : 0.098
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.xs.XSModelGroupDefinition
+	fields to move: 
+	methods to move: getModelGroup 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLErrorCode
+	 targetClass : org.apache.wml.WMLTemplateElement
+	 field : relatedNode
+	 semantic Similarity : 0.313
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.identity.Selector$Matcher
+	 targetClass : org.apache.xml.serialize.OutputFormat
+	 field : fAllTNSs
+	 semantic Similarity : 0.15
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xml.serialize.SecuritySupport$5
+	 targetClass : org.apache.xerces.impl.xs.SubstitutionGroupHandler$OneSubGroup
+	 semantic Similarity : 0.187
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLMapElementImpl
+	 targetClass : org.apache.xerces.xni.parser.XMLDTDFilter
+	 method : getAreas
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.WMLEmElement
+	 targetClass : org.apache.xerces.dom.DeepNodeListImpl
+	 field : serialVersionUID
+	 semantic Similarity : 0.21
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 targetClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 field : inCDATA
+	 semantic Similarity : 0.209
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLPrevElementImpl
+	 targetClass : org.apache.xerces.dom.SecuritySupport$1
+	 method : warning
+	 semantic Similarity : 0.132
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.DecimalDV
+	 targetClass : org.apache.xerces.impl.dv.xs.IntegerDV
+	 method : <init>
+	 semantic Similarity : 0.402
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser
+	fields to move: fBlock fName fBaseType fTargetNamespace fFinal fContentType fIsAbstract fAttrGrp fDerivedBy fComplexTypeDecl fXSSimpleType fAnnotations fParticle 
+	methods to move: traverseComplexTypeDecl traverseSimpleContent traverseLocal handleComplexTypeError addAnnotation traverseComplexContent processComplexContent traverseGlobal 
+	similarity/cohesion: 0.5171052631578947
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.dom.DeferredNode
+	 targetClass : org.apache.xerces.impl.dtd.models.CMNode
+	 field : TYPE_NODE
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.util.XMLAttributesImpl
+	 targetClass : org.apache.xerces.impl.validation.ValidationManager
+	 field : fAttributes
+	 semantic Similarity : 0.123
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.util.ByteListImpl
+	 targetClass : org.apache.xerces.xpointer.ElementSchemePointer$1
+	 field : fDescription
+	 semantic Similarity : 0.176
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.SchemaNamespaceSupport
+	 targetClass : org.apache.html.dom.HTMLTableColElementImpl
+	 method : setEffectiveContext
+	 semantic Similarity : 0.137
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 targetClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 method : setXmlStandalone
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser$ComplexTypeRecoverableError
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.HTMLModElementImpl
+	 targetClass : org.apache.xerces.xs.LSInputList
+	 method : <init>
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.CharacterDataImpl
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : getDuration
+	 semantic Similarity : 0.258
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.identity.Field$Matcher
+	 targetClass : org.apache.xerces.impl.xs.identity.XPathMatcher
+	 method : <init>
+	 semantic Similarity : 0.501
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.dom.ElementDefinitionImpl
+	 targetClass : org.apache.xml.serialize.Encodings
+	 method : setXmlLang
+	 semantic Similarity : 0.187
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.resolver.tools.CatalogResolver
+	 targetClass : org.apache.xerces.parsers.SecuritySupport
+	 field : validating
+	 semantic Similarity : 0.256
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.parsers.XPointerParserConfiguration
+	 targetClass : org.apache.xerces.parsers.DTDParser
+	 method : normalizeWhitespace
+	 semantic Similarity : 0.077
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.validation.XMLSchemaFactory$XMLGrammarPoolWrapper
+	 targetClass : org.apache.xerces.util.NamespaceSupport$Prefixes
+	 field : name
+	 semantic Similarity : 0.105
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.identity.Selector
+	 targetClass : org.apache.xerces.impl.xs.opti.ElementImpl
+	 method : clear
+	 semantic Similarity : 0.16
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.dom.DeferredProcessingInstructionImpl
+	 targetClass : org.apache.xerces.dom.CharacterDataImpl
+	 method : getVersionNotSupportedKey
+	 semantic Similarity : 0.184
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityScanner
+	 targetClass : org.apache.xerces.impl.XML11EntityScanner
+	 method : skipSpaces
+	 semantic Similarity : 0.816
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.jaxp.DocumentBuilderImpl
+	 targetClass : org.apache.xerces.parsers.XML11Configuration
+	 field : fInitEntityResolver
+	 semantic Similarity : 0.19
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.NonValidatingConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : PRINT_EXCEPTION_STACK_TRACE
+	 semantic Similarity : 0.55
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath
+	 targetClass : org.apache.xerces.impl.xpath.regex.Op$UnionOp
+	 field : fExpression
+	 semantic Similarity : 0.173
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.util.XMLAttributesImpl
+	 targetClass : org.apache.xerces.parsers.AbstractSAXParser$2
+	 method : prepareTableView
+	 semantic Similarity : 0.092
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.dtd.DTDGrammar$ChildrenList
+	 targetClass : org.apache.xerces.dom.RangeExceptionImpl
+	 method : <init>
+	 semantic Similarity : 0.179
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.xs.XSIDCDefinition
+	fields to move: 
+	methods to move: getCategory 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.XMLEntityScanner
+	 targetClass : org.apache.xerces.xs.ShortList
+	 field : fCurrentEntity
+	 semantic Similarity : 0.17
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.html.dom.HTMLDListElementImpl
+	 targetClass : org.apache.xerces.impl.xs.identity.IdentityConstraint
+	 semantic Similarity : 0.148
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.MonthDV
+	 targetClass : org.apache.xerces.impl.dv.xs.UnionDV
+	 semantic Similarity : 0.391
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.jaxp.datatype.DatatypeFactoryImpl
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.ParseException
+	 targetClass : org.apache.xerces.xs.XSException
+	 field : XMLGRAMMAR_POOL
+	 semantic Similarity : 0.254
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentScannerImpl$TrailingMiscDispatcher
+	 targetClass : org.apache.xerces.impl.xpath.regex.ParserForXMLSchema
+	 method : getContinuousValidityChecking
+	 semantic Similarity : 0.177
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.html.dom.HTMLElementImpl
+	 targetClass : org.apache.html.dom.HTMLDListElementImpl
+	 method : equals
+	 semantic Similarity : 0.165
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.XIncludeParserConfiguration
+	 targetClass : org.apache.xerces.impl.xs.identity.UniqueOrKey
+	 field : fXIncludeHandler
+	 semantic Similarity : 0.161
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.identity.Selector
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultNode
+	 method : canRemoveAttributeNS
+	 semantic Similarity : 0.068
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.dom.CoreDOMImplementationImpl
+	 targetClass : org.apache.xerces.dom3.as.ASDataType
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.SchemaContentHandler
+	 targetClass : org.apache.xerces.xs.XSAttributeUse
+	 field : fSymbolTable
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.jaxp.DocumentBuilderImpl
+	 targetClass : org.apache.xerces.dom.NodeImpl
+	 method : isValidating
+	 semantic Similarity : 0.086
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.XML11DocumentScannerImpl
+	 targetClass : org.apache.xerces.impl.XMLScanner
+	 method : normalizeWhitespace
+	 semantic Similarity : 0.672
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.dom.WMLSetvarElementImpl
+	 targetClass : org.apache.wml.WMLOptionElement
+	 field : this$0
+	 semantic Similarity : 0.405
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultElement
+	 method : getPrefix
+	 semantic Similarity : 0.294
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.SchemaGrammar$XSAnyType
+	 targetClass : org.apache.xerces.impl.xpath.regex.RegularExpression$Context
+	 field : this$0
+	 semantic Similarity : 0.148
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.dom.WMLWmlElementImpl
+	 targetClass : org.apache.xerces.util.DOMEntityResolverWrapper
+	 method : getName
+	 semantic Similarity : 0.126
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.XML11DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : fCurrentDTDScanner
+	 semantic Similarity : 0.533
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.NodeImpl
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultNode
+	 method : <init>
+	 semantic Similarity : 0.35
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xml.serialize.OutputFormat$Defaults
+	 targetClass : org.apache.wml.dom.WMLDOMImplementationImpl
+	 method : <init>
+	 semantic Similarity : 0.145
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xs.SubstitutionGroupHandler
+	 targetClass : org.apache.xerces.util.SymbolTable
+	 field : fDepth
+	 semantic Similarity : 0.079
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.util.ByteListImpl
+	 targetClass : org.apache.xerces.impl.dv.xs.Base64BinaryDV$XBase64
+	 method : getNamespace
+	 semantic Similarity : 0.567
+
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.XSSimpleTypeDecl$XSFacetImpl
+	 targetClass : org.apache.xerces.dom.ElementImpl
+	 method : getLexicalFacetValue
+	 semantic Similarity : 0.19
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.DefaultValidationErrorHandler
+	 targetClass : org.apache.xerces.impl.xs.XSElementDecl
+	 method : <init>
+	 semantic Similarity : 0.1
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLScanner
+	 targetClass : org.apache.xerces.dom.ElementNSImpl
+	 method : setFeature
+	 semantic Similarity : 0.28
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractSAXParser
+	 targetClass : org.apache.wml.dom.WMLIElementImpl
+	 field : fAugmentations
+	 semantic Similarity : 0.29
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.traversers.XSDAbstractTraverser$FacetInfo
+	 targetClass : org.apache.xerces.impl.xs.opti.DefaultText
+	 method : processBacksolidus_C
+	 semantic Similarity : 0.09
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.opti.DefaultDocument
+	 targetClass : org.apache.xerces.impl.xs.opti.SchemaDOM
+	 method : getDocumentElement
+	 semantic Similarity : 0.23
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.jaxp.validation.DOMDocumentHandler
+	fields to move: 
+	methods to move: setDOMResult 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+pullUpMethod: 
+	 sourceClass : org.apache.xerces.impl.xs.SchemaGrammar$BuiltinAttrDecl
+	 targetClass : org.apache.xerces.impl.xs.XSAttributeDecl
+	 method : reset
+	 semantic Similarity : 0.408
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath
+	 targetClass : org.apache.wml.dom.WMLMetaElementImpl
+	 field : fLastModified
+	 semantic Similarity : 0.165
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.impl.xs.SchemaGrammar$Schema4Annotations
+	 targetClass : org.apache.xerces.dom.CharacterDataImpl$1
+	 semantic Similarity : 0.118
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.AbstractDOMParser
+	 targetClass : org.apache.xerces.parsers.XMLParser
+	 field : DEBUG_BASEURI
+	 semantic Similarity : 0.269
+
+-------------------------------------------------------------------
+pullUpField: 
+	 sourceClass : org.apache.xerces.parsers.DTDConfiguration
+	 targetClass : org.apache.xerces.util.ParserConfigurationSettings
+	 field : DATATYPE_VALIDATOR_FACTORY
+	 semantic Similarity : 0.401
+
+-------------------------------------------------------------------
+pushDownMethod: 
+	 sourceClass : org.apache.xerces.impl.xpath.XPath$NodeTest
+	 targetClass : org.apache.xml.serialize.SerializerFactoryImpl
+	 method : <init>
+	 semantic Similarity : 0.192
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xml.resolver.readers.TextCatalogReader
+	 targetClass : org.apache.xml.resolver.helpers.FileURL
+	 field : catfile
+	 semantic Similarity : 0.199
+
+-------------------------------------------------------------------
+extract Class: 
+	source class: org.apache.xerces.impl.xs.traversers.XSDWildcardTraverser
+	fields to move: 
+	methods to move: <init> 
+	similarity/cohesion: 0.0
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.WMLTableElement
+	 targetClass : org.apache.xerces.impl.xs.XSLoaderImpl
+	 method : getColumns
+	 semantic Similarity : 0.271
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.wml.WMLStrongElement
+	 targetClass : org.apache.xerces.impl.xs.SchemaSymbols
+	 field : fIANA2JavaMap
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.xpath.regex.Token$CharToken
+	 targetClass : org.apache.xerces.impl.dv.dtd.ListDatatypeValidator
+	 field : serialVersionUID
+	 semantic Similarity : 0.116
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.DocumentBuilderFactoryImpl
+	 targetClass : org.apache.xerces.impl.XMLEntityManager$InternalEntity
+	 method : getFeature
+	 semantic Similarity : 0.231
+
+-------------------------------------------------------------------
+moveField: 
+	 sourceClass : org.apache.xerces.impl.dv.xs.AbstractDateTimeDV$DateTimeData
+	 targetClass : org.apache.xerces.xni.XMLDTDHandler
+	 field : unNormDay
+	 semantic Similarity : 0.168
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.wml.WMLAnchorElement
+	 targetClass : org.apache.xerces.impl.XMLErrorReporter
+	 method : getXmlLang
+	 semantic Similarity : 0.303
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.jaxp.validation.DOMResultAugmentor
+	 targetClass : org.apache.xml.resolver.tools.ResolvingXMLFilter
+	 method : doctypeDecl
+	 semantic Similarity : 0.342
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.xerces.impl.XMLDocumentScannerImpl$PrologDispatcher
+	 targetClass : org.apache.xerces.xni.Augmentations
+	 method : getColumnNumber
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+inlineClass: 
+	 sourceClass : org.apache.xerces.xni.parser.XMLDocumentFilter
+	 targetClass : org.apache.xerces.impl.dv.xs.PrecisionDecimalDV$XPrecisionDecimal
+	 semantic Similarity : 0.0
+
+-------------------------------------------------------------------
+moveMethod: 
+	 sourceClass : org.apache.html.dom.NameNodeListImpl
+	 targetClass : org.apache.xerces.dom3.as.ASObjectList
+	 method : getResourceAsStream
+	 semantic Similarity : 0.0
+
