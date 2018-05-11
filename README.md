@@ -1,1 +1,1 @@
-s is the 
+This is java repository.
